@@ -1,15 +1,17 @@
 ---
 name: ian-xiaohei-illustrations
-description: "Generate Ian-style article illustrations with English labels and annotations. Use for strange, clean, hand-drawn Xiaohei article illustrations, blog illustrations, inline article images, shot lists, title removal, and image edits for workflows, methods, structures, states, metaphors, or ideas."
+description: "Generate Ian-style article illustrations with English labels and annotations. Use for strange, clean, hand-drawn article illustrations with a restrained Rough Rider-inspired operator, blog illustrations, inline article images, shot lists, title removal, and image edits for workflows, methods, structures, states, metaphors, or ideas."
 ---
 
-# Ian Xiaohei Article Illustrations
+# Ian Rough Rider Operator Article Illustrations
 
 ## Core Positioning
 
 Design and generate 16:9 horizontal inline illustrations for articles. The goal is not commercial illustration, PPT infographics, or cute cartoons. The goal is to turn a key judgment, process, structure, state, or metaphor from the article into a clean, strange, memorable hand-drawn explanation image.
 
-Default visual IP: Xiaohei, a small solid-black creature with white dot eyes, tiny thin legs, and a blank serious expression. Xiaohei must participate in the core action of the image, not stand aside as decoration.
+Default visual IP: a restrained Rough Rider-inspired operator. It replaces the little black operator while keeping the same sparse product-sketch composition. The operator has a small skull-like or mask-like face, wide-brim hat, simple scarf accent, deadpan expression, and compact diagram-friendly body. The operator must participate in the core action of the image, not stand aside as decoration.
+
+Do not westernize the whole system by default. The article idea leads; the Rough Rider influence is mainly the recurring operator's face, hat, scarf, attitude, and hand-drawn edge.
 
 All visible text in generated images should be English by default. This includes labels, annotations, warning notes, callouts, title-like text, and any suggested text in shot lists or prompts. If the user explicitly requests another language, follow the user.
 
@@ -18,7 +20,7 @@ All visible text in generated images should be English by default. This includes
 Read only what the task needs:
 
 - `references/style-dna.md`: visual DNA, color, text, and hard constraints.
-- `references/xiaohei-ip.md`: Xiaohei character design, personality, action library, and constraints.
+- `references/rough-rider-operator.md`: Rough Rider operator design, personality, action library, and constraints.
 - `references/composition-patterns.md`: structure types, original metaphor method, and anti-copy rules.
 - `references/prompt-template.md`: single-image prompt template.
 - `references/qa-checklist.md`: generation QA and iteration rules.
@@ -45,7 +47,7 @@ If the user asks only to analyze where images are needed or to plan illustration
 - Theme.
 - Core idea.
 - Structure type.
-- What Xiaohei is doing.
+- What the Rough Rider operator is doing.
 - Suggested elements.
 - Suggested English annotation words.
 
@@ -62,16 +64,16 @@ Each image should explain one core structure. The prompt must include:
 - Black hand-drawn line art.
 - Sparse red/orange/blue English handwritten annotations.
 - Lots of white space.
-- Xiaohei as the core action subject.
+- Rough Rider operator as the core action subject.
 - No PPT, no commercial illustration, no childish cuteness, no complex architecture, no top-left type title.
 
-Do not copy prior examples. Examples only calibrate line density, whitespace, restrained color, and how Xiaohei participates. Do not directly reuse known compositions such as conveyor breakpoints, Xiaohei pulling wires, material fish, stamp toolbox, or common-pit path unless the user explicitly asks to remake a specific image. Invent a fresh strange-but-working metaphor from the current article each time.
+Do not copy prior examples. Examples only calibrate line density, whitespace, restrained color, and how the operator participates. Do not directly reuse known compositions such as conveyor breakpoints, the operator pulling wires, material fish, stamp toolbox, or common-pit path unless the user explicitly asks to remake a specific image. Invent a fresh strange-but-working metaphor from the current article each time.
 
 ### 4. Check And Iterate
 
 After generation, check `references/qa-checklist.md`. If any of these issues appear, regenerate or edit locally:
 
-- Xiaohei is only decorative.
+- The Rough Rider operator is only decorative.
 - The image is too full.
 - It looks like a flowchart or PPT slide.
 - There is too much text, or text is unreadable.
@@ -79,6 +81,7 @@ After generation, check `references/qa-checklist.md`. If any of these issues app
 - The style is too cute, childish, or stiff.
 - The background is not clean white.
 - Non-English labels appear when the user asked for English output or did not specify a language.
+- The image reads as a western scene instead of a clean article explainer with a distinctive operator.
 
 ### 5. Save Delivery
 
