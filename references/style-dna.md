@@ -11,6 +11,7 @@ It should feel like a person who works deeply with AI, product, design, and deve
 - 16:9 horizontal article illustration.
 - Pure white background: no beige, warm gray, paper texture, gradient, shadow, noise, or vintage paper feeling.
 - Mostly black hand-drawn line art: thin lines, slight wobble, not mechanical, not vector-clean, not thick-outlined.
+- Recurring operator is a restrained Rough Rider-inspired worker: compact, diagram-friendly, skull-like or mask-like face, wide-brim hat, small scarf accent, deadpan expression.
 - Lots of empty space: main subject around 40%-60% of the image, at least 35% blank white space, ideally with one quiet open area.
 - Sparse English handwritten annotations: at most 5-8 notes, each preferably 1-4 short words.
 - One image explains only one core action, structure, state, or metaphor.
@@ -38,6 +39,8 @@ Blue is not required in every image. Use color sparingly; less is better.
 - Do not make techy UI.
 - Do not use real app screenshots.
 - Do not use complex backgrounds, gradients, shadows, or textures.
+- Do not westernize the whole image unless the article itself calls for that metaphor.
+- Do not add horses, guns, saloons, desert landscapes, flags, cavalry uniforms, or frontier props by default.
 - Do not explain every node.
 - Do not write type titles such as "Workflow", "System Architecture", "Common Traps", or "Roadmap" in the top-left corner.
 - Do not use Chinese labels unless the user explicitly asks for Chinese.

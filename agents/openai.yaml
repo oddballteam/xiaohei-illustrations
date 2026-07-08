@@ -1,6 +1,6 @@
 interface:
-  display_name: "Ian Xiaohei Illustrations"
-  short_description: "Generate strange, clean Xiaohei article illustrations with English annotations"
-  default_prompt: "Use $ian-xiaohei-illustrations to design and generate several Xiaohei-style article illustrations with English labels."
+  display_name: "Ian Rough Rider Operator Illustrations"
+  short_description: "Generate clean article illustrations with a restrained Rough Rider operator"
+  default_prompt: "Use $ian-xiaohei-illustrations to design and generate several sparse article illustrations with a restrained Rough Rider-inspired operator and English labels."
 policy:
   allow_implicit_invocation: true
